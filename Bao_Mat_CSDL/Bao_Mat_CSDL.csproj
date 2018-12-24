@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE134F5F-4354-4CCA-9E08-CE18AF7E79B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bao_Mat_CSDL</RootNamespace>
+    <AssemblyName>Bao_Mat_CSDL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile_Detail.Designer.cs">
+      <DependentUpon>Profile_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QL_PROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL_PROFILE.Designer.cs">
+      <DependentUpon>QL_PROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QL_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL_USER.Designer.cs">
+      <DependentUpon>QL_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QL_ROLE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QL_ROLE.Designer.cs">
+      <DependentUpon>QL_ROLE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUYEN_HT.cs" />
+    <Compile Include="QUYEN_HT.Designer.cs">
+      <DependentUpon>QUYEN_HT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quyen_Table_Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quyen_Table_Role.Designer.cs">
+      <DependentUpon>Quyen_Table_Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quyen_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quyen_Table.Designer.cs">
+      <DependentUpon>Quyen_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quyen_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quyen_User.Designer.cs">
+      <DependentUpon>Quyen_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ROLE_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ROLE_USER.Designer.cs">
+      <DependentUpon>ROLE_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Detail.Designer.cs">
+      <DependentUpon>User_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Of_Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Of_Role.Designer.cs">
+      <DependentUpon>User_Of_Role.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile_Detail.resx">
+      <DependentUpon>Profile_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QL_PROFILE.resx">
+      <DependentUpon>QL_PROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QL_USER.resx">
+      <DependentUpon>QL_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QL_ROLE.resx">
+      <DependentUpon>QL_ROLE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUYEN_HT.resx">
+      <DependentUpon>QUYEN_HT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quyen_Table_Role.resx">
+      <DependentUpon>Quyen_Table_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quyen_Table.resx">
+      <DependentUpon>Quyen_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quyen_User.resx">
+      <DependentUpon>Quyen_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ROLE_USER.resx">
+      <DependentUpon>ROLE_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Detail.resx">
+      <DependentUpon>User_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Of_Role.resx">
+      <DependentUpon>User_Of_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{83d64a56-39ff-4c72-8a85-6a07ffa1749e}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{715ec445-41b0-4966-8d8f-304a26da8408}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

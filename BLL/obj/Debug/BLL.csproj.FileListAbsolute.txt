@@ -1,0 +1,10 @@
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\bin\Debug\BLL.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\bin\Debug\BLL.pdb
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\bin\Debug\DAL.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\bin\Debug\Oracle.DataAccess.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\bin\Debug\DAL.pdb
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\obj\Debug\BLL.csproj.CopyComplete
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\obj\Debug\BLL.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\BLL\obj\Debug\BLL.pdb

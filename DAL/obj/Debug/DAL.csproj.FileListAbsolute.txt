@@ -1,0 +1,7 @@
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\bin\Debug\DAL.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\bin\Debug\DAL.pdb
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\bin\Debug\Oracle.DataAccess.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\obj\Debug\DAL.csproj.CopyComplete
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\obj\Debug\DAL.dll
+c:\users\phong\source\repos\Bao_Mat_CSDL\DAL\obj\Debug\DAL.pdb
