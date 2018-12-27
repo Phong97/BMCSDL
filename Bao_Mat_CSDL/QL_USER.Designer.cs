@@ -30,6 +30,7 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnDetail = new System.Windows.Forms.Button();
             this.btnTable = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -54,7 +55,6 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnDetail = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -97,13 +97,24 @@
             this.panel1.Size = new System.Drawing.Size(601, 197);
             this.panel1.TabIndex = 1;
             // 
+            // btnDetail
+            // 
+            this.btnDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetail.Location = new System.Drawing.Point(489, 99);
+            this.btnDetail.Name = "btnDetail";
+            this.btnDetail.Size = new System.Drawing.Size(89, 33);
+            this.btnDetail.TabIndex = 22;
+            this.btnDetail.Text = "Detail";
+            this.btnDetail.UseVisualStyleBackColor = true;
+            this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
+            // 
             // btnTable
             // 
             this.btnTable.Location = new System.Drawing.Point(390, 123);
             this.btnTable.Name = "btnTable";
             this.btnTable.Size = new System.Drawing.Size(86, 23);
             this.btnTable.TabIndex = 20;
-            this.btnTable.Text = "Quyen Table";
+            this.btnTable.Text = "Quyền Table";
             this.btnTable.UseVisualStyleBackColor = true;
             this.btnTable.Click += new System.EventHandler(this.btnTable_Click);
             // 
@@ -318,17 +329,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(168, 409);
             this.panel2.TabIndex = 17;
-            // 
-            // btnDetail
-            // 
-            this.btnDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDetail.Location = new System.Drawing.Point(489, 99);
-            this.btnDetail.Name = "btnDetail";
-            this.btnDetail.Size = new System.Drawing.Size(89, 33);
-            this.btnDetail.TabIndex = 22;
-            this.btnDetail.Text = "Detail";
-            this.btnDetail.UseVisualStyleBackColor = true;
-            this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
             // QL_USER
             // 
